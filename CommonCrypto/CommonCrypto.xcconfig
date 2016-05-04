@@ -1,0 +1,12 @@
+//
+//  CommonCrypto.xcconfig
+//  SwiftCrypto
+//
+//  Created by Haizhen Lee on 16/5/4.
+//  Copyright © 2016年 banxi1988. All rights reserved.
+//
+MODULEMAP_FILE[sdk=iphoneos*]        = \
+$(SRCROOT)/CommonCrypto/iphoneos/module.modulemap
+
+MODULEMAP_FILE[sdk=iphonesimulator*] = \
+$(SRCROOT)/CommonCrypto/iphonesimulator/module.modulemap
